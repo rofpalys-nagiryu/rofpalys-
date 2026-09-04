@@ -1,64 +1,91 @@
+<div align="center">
 
-```markdown
-# RofPalysX
+<!-- HEADER / BANNER -->
+<h1>🎧 RofPalysX</h1>
+<p><b>Your Ultimate Terminal Music Player</b></p>
+<p><i>With Synced Lyrics, Visualizer, and Automatic Engine Detection</i></p>
 
-A simple and handy music player that runs right in your terminal. 
-It's built to make listening to your local music files easy and fun, with some cool visual effects and synced lyrics.
+<br>
+
+<!-- IMAGE / SCREENSHOT -->
+<img src="https://github.com/rofpalys-nagiryu/rofpalys-/raw/main/Screenshot_20260904_130743_Termux.jpg" alt="RofPalysX Preview" width="800" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); border: 2px solid #00FFFF;">
+
+<br><br>
+
+<!-- BADGES -->
+<img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Platform-Termux-00FFFF?style=for-the-badge">
+<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+
+</div>
 
 ---
 
-## 📸 Showcase
-
-*(Replace the links below with your own images or videos after uploading them to
-Screenshot_20260904_130743_Termux.jpg
-![Screenshot 2](PASTE_LINK_FOTO_LAINNYA
-
-[![Watch the demo video](PASTE_LINK_GAMBAR_THUMBNAIL_VIDEO)](PASTE_LINK_VIDEO_YOUTUBE_ATAU_MP4)
+### ⚡ Key Features
+<div align="center">
+<table>
+  <tr>
+    <td align="center">🎵 <br><b>Multi-Format</b><br>MP3, FLAC, WAV</td>
+    <td align="center">📄 <br><b>Synced Lyrics</b><br>Real-time Karaoke</td>
+    <td align="center">📺 <br><b>Visualizer</b><br>19 Matrix Animations</td>
+    <td align="center">🌐 <br><b>6 Languages</b><br>Multi-Language Support</td>
+  </tr>
+  <tr>
+    <td align="center">⬇️ <br><b>Downloader</b><br>yt-dlp YouTube</td>
+    <td align="center">🔀 <br><b>AutoDJ</b><br>Smart & Random</td>
+    <td align="center">📦 <br><b>Multi-Engine</b><br>mpv, ffplay, VLC</td>
+    <td align="center">⭐ <br><b>Favorites</b><br>Saved Safely</td>
+  </tr>
+</table>
+</div>
 
 ---
 
-## 🚀 How to Use
+### 🚀 How to Use
 
-First, make sure you have Python installed along with an audio player (like `mpv`, `ffplay`, or `vlc`).
+1. **Navigate to the project folder:**
+```bash
+cd ~/RofPalysX
+```
 
-1. Open your terminal.
-2. Navigate to the folder where this script is located.
-3. Run the program:
+2. Run the program:
 
 ```bash
 python3 refpalysx.py
 ```
 
-Keyboard Controls
+3. Keyboard Controls:
 
-· F : Play / Pause
-· N / P : Next / Previous track
-· V : Search for a song
-· Z : View Lyrics
-· C : View Visualizer
-· M : Change play mode (Normal, Repeat, Shuffle, etc.)
-· Y : Download audio from YouTube (requires yt-dlp)
-· X : Change language
-· Q : Quit
-
----
-
-⚙️ About the Audio Engine
-
-Don't worry if you don't have a specific player installed. 
-The program automatically scans your system to find any available audio engine (like mpv, ffplay, VLC, or PyGame) and uses it to play your music. 
-If one engine fails, it will smoothly switch to another one so your music keeps playing.
+Key Function
+F Play / Pause
+V Search Song
+N / P Next / Previous Song
+M Change Mode (Normal, Repeat, Shuffle)
+Z Show Lyrics
+C Show Visualizer
+Y Download Audio from YouTube
+X Change Language
+Q Quit
 
 ---
 
-🛠️ Requirements
+🛠️ About the Audio Engine
 
-· Python 3
-· (Optional) mpv, ffmpeg, or vlc for better audio support
-· (Optional) yt-dlp for downloading YouTube audio
+"Don't worry if you don't have a specific music player installed on your phone."
+
+The program automatically scans your system to find available audio engines (like mpv, ffplay, VLC, or PyGame) and uses them immediately. 
+If one engine fails, it smoothly switches to another so your music keeps playing without interruption! 🎶
 
 ---
 
-Thank you for checking out my project! Feel free to explore.
+📦 Requirements
 
+· Python 3 (Required)
+· mpv / ffmpeg / vlc (Optional, for better audio quality)
+· yt-dlp (Optional, for YouTube downloads)
 
+<br>
+
+<div align="center">
+  <i>Made with ❤️ by rofpalys-nagiryu</i>
+</div>
