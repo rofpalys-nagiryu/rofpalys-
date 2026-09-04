@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <!-- HEADER / BANNER -->
@@ -49,22 +50,158 @@
 
 ---
 
-### 🚀 How to Use
+### 📥 Installation & Setup (Full English)
 
-1. **Make it executable (run this only once):**
+*Important: After installation, you can simply type `RofPalysX` to run it. No need to type `python3 refpalysx.py`.*
+
+#### 1️⃣ Option A: Linux (Arch Linux / Pure Linux)
+
+**Step 1:** Update your system packages.
 ```bash
-chmod +x $PREFIX/bin/RofPalysX
+sudo pacman -Syu
 ```
 
-(Jika file diletakkan di tempat lain, sesuaikan path-nya)
+Step 2: Install Python, pip, mpv, and ffmpeg.
 
-2. Run the program directly:
+```bash
+sudo pacman -S python python-pip mpv ffmpeg
+```
+
+(Note: If you are using Debian/Ubuntu, use sudo apt update && sudo apt install python3 python3-pip mpv ffmpeg)
+
+Step 3: Install Python dependencies.
+
+```bash
+pip install yt-dlp pygame
+```
+
+Step 4: Move the script to your system bin and rename it.
+
+```bash
+sudo mv refpalysx.py /usr/local/bin/RofPalysX
+```
+
+Step 5: Make it executable.
+
+```bash
+sudo chmod +x /usr/local/bin/RofPalysX
+```
+
+Step 6: Run the program.
 
 ```bash
 RofPalysX
 ```
 
-3. Keyboard Controls:
+---
+
+2️⃣ Option B: Termux (Android)
+
+Step 1: Update your packages.
+
+```bash
+pkg update && pkg upgrade
+```
+
+Step 2: Install Python, mpv, and ffmpeg.
+
+```bash
+pkg install python mpv ffmpeg
+```
+
+Step 3: Install Python dependencies.
+
+```bash
+pip install yt-dlp pygame
+```
+
+Step 4: Move the script to your system bin and rename it.
+
+```bash
+cp refpalysx.py $PREFIX/bin/RofPalysX
+```
+
+Step 5: Make it executable.
+
+```bash
+chmod +x $PREFIX/bin/RofPalysX
+```
+
+Step 6: Run the program.
+
+```bash
+RofPalysX
+```
+
+---
+
+3️⃣ macOS
+
+Step 1: Install Homebrew (if you don't have it).
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Step 2: Install Python, mpv, and ffmpeg.
+
+```bash
+brew install python mpv ffmpeg
+```
+
+Step 3: Install Python dependencies.
+
+```bash
+pip3 install yt-dlp pygame
+```
+
+Step 4: Move the script to your system bin and rename it.
+
+```bash
+sudo mv refpalysx.py /usr/local/bin/RofPalysX
+```
+
+Step 5: Make it executable.
+
+```bash
+sudo chmod +x /usr/local/bin/RofPalysX
+```
+
+Step 6: Run the program.
+
+```bash
+RofPalysX
+```
+
+---
+
+4️⃣ Windows
+
+Step 1: Install Python (Make sure you check "Add Python to PATH" during installation).
+Step 2: Install VLC (For better audio support).
+
+Step 3: Open CMD or PowerShell and install Python dependencies.
+
+```cmd
+pip install windows-curses yt-dlp pygame
+```
+
+Step 4: Create a new file named RofPalysX.bat in the same folder as refpalysx.py, and add this line inside:
+
+```bat
+@echo off
+python "%~dp0refpalysx.py" %*
+```
+
+Step 5: Run the program by double-clicking the .bat file or typing RofPalysX in the command prompt.
+
+```cmd
+RofPalysX
+```
+
+---
+
+🚀 How to Use (Keyboard Controls)
 
 Key Function
 F Play / Pause
@@ -88,9 +225,8 @@ If one engine fails, it smoothly switches to another so your music keeps playing
 
 ---
 
-📦 Requirements & Platform Support
+📦 Requirements
 
-· Cross-Platform: Works flawlessly on Windows, Linux (including Termux), and macOS.
 · Python 3 (Required)
 · mpv / ffmpeg / vlc (Optional, for better audio quality)
 · yt-dlp (Optional, for YouTube downloads)
