@@ -11,7 +11,7 @@ It's built to make listening to your local music files easy and fun, with some c
 
 *(Replace the links below with your own images or videos after uploading them to GitHub)*
 
-![Screenshot 1](PASTE_LINK_FOTO_DISINI)
+![Screenshot](Screenshot_20260904_130743_Termux.jpg)
 ![Screenshot 2](PASTE_LINK_FOTO_LAINNYA)
 
 [![Watch the demo video](PASTE_LINK_GAMBAR_THUMBNAIL_VIDEO)](PASTE_LINK_VIDEO_YOUTUBE_ATAU_MP4)
